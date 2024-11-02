@@ -18,7 +18,7 @@ int main(void)
 	/* Initializes MCU, drivers and middleware */
 	atmel_start_init();
 	
-	// Hier ist ein Kommentar
+	// Hier ist ein Kommentar! HEHEHE
 	configure_timer(TIMER_INTERVAL_SLOW);
 	
 	/* Replace with your application code */
