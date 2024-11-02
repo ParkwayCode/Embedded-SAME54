@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "driver_init.h": "c",
+        "driver_examples.h": "c",
+        "utils.h": "c"
+    }
+}
