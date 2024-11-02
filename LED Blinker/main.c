@@ -18,6 +18,7 @@ int main(void)
 	/* Initializes MCU, drivers and middleware */
 	atmel_start_init();
 	
+	// Hier ist ein Kommentar
 	configure_timer(TIMER_INTERVAL_SLOW);
 	
 	/* Replace with your application code */
@@ -52,6 +53,6 @@ void configure_timer( uint16_t interval ) {
 
 	// Timer starten
 	timer_add_task(&TIMER_0, &TIMER_0_task1);  // Nutze TIMER_0
-	//timer_stop(&TIMER_0);  // Standardmäßig Timer stoppen
+	//timer_stop(&TIMER_0);  // Standardmï¿½ï¿½ig Timer stoppen
 	timer_start(&TIMER_0);
 }
